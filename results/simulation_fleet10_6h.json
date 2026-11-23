@@ -1,0 +1,72 @@
+{
+  "parametres": {
+    "input": "data/trips_clean.csv",
+    "day": "2016-03-07",
+    "hours": 6,
+    "fleet": 10,
+    "speed": 0,
+    "seed": 42,
+    "host": "localhost",
+    "port": 6379
+  },
+  "chauffeurs": 350,
+  "courses": 420,
+  "duree_reelle_s": 40.9,
+  "debit_ecritures_par_s": 11784.0,
+  "pings": 482315,
+  "requests": 420,
+  "requests_with_driver": 417,
+  "reserve_ok": 4200,
+  "reserve_fail": 0,
+  "releases": 3990,
+  "ghosts_removed": 110,
+  "latence_recherche_Q6": {
+    "p50_ms": 0.335,
+    "p95_ms": 0.536,
+    "p99_ms": 1.102,
+    "max_ms": 5.931,
+    "n": 420
+  },
+  "latence_reservation_Q8": {
+    "p50_ms": 0.216,
+    "p95_ms": 0.377,
+    "p99_ms": 0.882,
+    "max_ms": 10.201,
+    "n": 4200
+  },
+  "latence_moyenne_par_position_Q1_ms": 0.0677,
+  "memoire_redis_mo": 1.8,
+  "chauffeurs_en_ligne_par_heure": [
+    {
+      "heure": 0,
+      "actifs": 18,
+      "available": 18
+    },
+    {
+      "heure": 1,
+      "actifs": 350,
+      "available": 130
+    },
+    {
+      "heure": 2,
+      "actifs": 350,
+      "available": 230
+    },
+    {
+      "heure": 3,
+      "actifs": 350,
+      "available": 270
+    },
+    {
+      "heure": 4,
+      "actifs": 260,
+      "available": 210
+    },
+    {
+      "heure": 5,
+      "actifs": 350,
+      "available": 260
+    }
+  ],
+  "heat_map_top5_heure_18": null
+}

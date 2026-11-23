@@ -1,0 +1,183 @@
+{
+  "parametres": {
+    "input": "data/trips_clean.csv",
+    "day": "2016-03-07",
+    "hours": 24,
+    "fleet": 1,
+    "speed": 0,
+    "seed": 42,
+    "host": "localhost",
+    "port": 6379
+  },
+  "chauffeurs": 143,
+  "courses": 7247,
+  "duree_reelle_s": 89.9,
+  "debit_ecritures_par_s": 6353.9,
+  "pings": 570960,
+  "requests": 7247,
+  "requests_with_driver": 7160,
+  "reserve_ok": 7247,
+  "reserve_fail": 0,
+  "releases": 7222,
+  "ghosts_removed": 91,
+  "latence_recherche_Q6": {
+    "p50_ms": 0.3,
+    "p95_ms": 0.499,
+    "p99_ms": 1.131,
+    "max_ms": 16.656,
+    "n": 7247
+  },
+  "latence_reservation_Q8": {
+    "p50_ms": 0.242,
+    "p95_ms": 0.426,
+    "p99_ms": 1.04,
+    "max_ms": 16.958,
+    "n": 7247
+  },
+  "latence_moyenne_par_position_Q1_ms": 0.1484,
+  "memoire_redis_mo": 1.7,
+  "chauffeurs_en_ligne_par_heure": [
+    {
+      "heure": 0,
+      "actifs": 2,
+      "available": 2
+    },
+    {
+      "heure": 1,
+      "actifs": 35,
+      "available": 13
+    },
+    {
+      "heure": 2,
+      "actifs": 35,
+      "available": 23
+    },
+    {
+      "heure": 3,
+      "actifs": 35,
+      "available": 27
+    },
+    {
+      "heure": 4,
+      "actifs": 26,
+      "available": 21
+    },
+    {
+      "heure": 5,
+      "actifs": 35,
+      "available": 26
+    },
+    {
+      "heure": 6,
+      "actifs": 35,
+      "available": 14
+    },
+    {
+      "heure": 7,
+      "actifs": 61,
+      "available": 3
+    },
+    {
+      "heure": 8,
+      "actifs": 100,
+      "available": 9
+    },
+    {
+      "heure": 9,
+      "actifs": 123,
+      "available": 20
+    },
+    {
+      "heure": 10,
+      "actifs": 123,
+      "available": 17
+    },
+    {
+      "heure": 11,
+      "actifs": 123,
+      "available": 39
+    },
+    {
+      "heure": 12,
+      "actifs": 123,
+      "available": 14
+    },
+    {
+      "heure": 13,
+      "actifs": 123,
+      "available": 29
+    },
+    {
+      "heure": 14,
+      "actifs": 123,
+      "available": 37
+    },
+    {
+      "heure": 15,
+      "actifs": 123,
+      "available": 36
+    },
+    {
+      "heure": 16,
+      "actifs": 123,
+      "available": 30
+    },
+    {
+      "heure": 17,
+      "actifs": 123,
+      "available": 35
+    },
+    {
+      "heure": 18,
+      "actifs": 123,
+      "available": 16
+    },
+    {
+      "heure": 19,
+      "actifs": 143,
+      "available": 21
+    },
+    {
+      "heure": 20,
+      "actifs": 143,
+      "available": 50
+    },
+    {
+      "heure": 21,
+      "actifs": 143,
+      "available": 61
+    },
+    {
+      "heure": 22,
+      "actifs": 143,
+      "available": 73
+    },
+    {
+      "heure": 23,
+      "actifs": 143,
+      "available": 82
+    }
+  ],
+  "heat_map_top5_heure_18": [
+    [
+      "40.75:-73.98",
+      50
+    ],
+    [
+      "40.76:-73.97",
+      33
+    ],
+    [
+      "40.74:-73.99",
+      32
+    ],
+    [
+      "40.75:-73.99",
+      27
+    ],
+    [
+      "40.76:-73.98",
+      25
+    ]
+  ]
+}

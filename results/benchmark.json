@@ -1,0 +1,276 @@
+{
+  "parametres": {
+    "input": "data/trips_clean.csv",
+    "queries": 1000,
+    "seed": 42,
+    "port": 6379,
+    "rayon_km": 2,
+    "chauffeurs_demandes": 5
+  },
+  "E1_taille_flotte": [
+    {
+      "chauffeurs": 1000,
+      "chargement_s": 0.06,
+      "debit_chargement_par_s": 15580,
+      "sans_filtre": {
+        "modele_B": {
+          "p50_ms": 0.326,
+          "p95_ms": 0.53,
+          "p99_ms": 1.081,
+          "moyenne_ms": 0.35
+        },
+        "modele_A": {
+          "p50_ms": 1.14,
+          "p95_ms": 3.041,
+          "p99_ms": 4.996,
+          "moyenne_ms": 1.453
+        },
+        "allers_retours_A_moyen": 2.46,
+        "allers_retours_A_max": 6,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      },
+      "filtre_moto": {
+        "modele_B": {
+          "p50_ms": 0.365,
+          "p95_ms": 0.602,
+          "p99_ms": 1.103,
+          "moyenne_ms": 0.388
+        },
+        "modele_A": {
+          "p50_ms": 9.731,
+          "p95_ms": 19.155,
+          "p99_ms": 27.907,
+          "moyenne_ms": 10.482
+        },
+        "allers_retours_A_moyen": 8.1,
+        "allers_retours_A_max": 10,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      }
+    },
+    {
+      "chauffeurs": 10000,
+      "chargement_s": 0.57,
+      "debit_chargement_par_s": 17681,
+      "sans_filtre": {
+        "modele_B": {
+          "p50_ms": 0.672,
+          "p95_ms": 1.07,
+          "p99_ms": 2.448,
+          "moyenne_ms": 0.719
+        },
+        "modele_A": {
+          "p50_ms": 2.224,
+          "p95_ms": 5.708,
+          "p99_ms": 9.557,
+          "moyenne_ms": 2.76
+        },
+        "allers_retours_A_moyen": 2.49,
+        "allers_retours_A_max": 6,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      },
+      "filtre_moto": {
+        "modele_B": {
+          "p50_ms": 0.439,
+          "p95_ms": 0.804,
+          "p99_ms": 1.47,
+          "moyenne_ms": 0.519
+        },
+        "modele_A": {
+          "p50_ms": 15.54,
+          "p95_ms": 35.673,
+          "p99_ms": 47.152,
+          "moyenne_ms": 17.541
+        },
+        "allers_retours_A_moyen": 8.64,
+        "allers_retours_A_max": 12,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      }
+    },
+    {
+      "chauffeurs": 50000,
+      "chargement_s": 2.72,
+      "debit_chargement_par_s": 18377,
+      "sans_filtre": {
+        "modele_B": {
+          "p50_ms": 3.954,
+          "p95_ms": 7.231,
+          "p99_ms": 13.645,
+          "moyenne_ms": 4.118
+        },
+        "modele_A": {
+          "p50_ms": 14.2,
+          "p95_ms": 34.482,
+          "p99_ms": 53.662,
+          "moyenne_ms": 16.297
+        },
+        "allers_retours_A_moyen": 2.51,
+        "allers_retours_A_max": 6,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      },
+      "filtre_moto": {
+        "modele_B": {
+          "p50_ms": 0.778,
+          "p95_ms": 1.335,
+          "p99_ms": 3.103,
+          "moyenne_ms": 0.88
+        },
+        "modele_A": {
+          "p50_ms": 50.749,
+          "p95_ms": 95.012,
+          "p99_ms": 106.554,
+          "moyenne_ms": 52.509
+        },
+        "allers_retours_A_moyen": 8.83,
+        "allers_retours_A_max": 12,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      }
+    }
+  ],
+  "E2_part_libres": [
+    {
+      "part_libres": 0.9,
+      "sans_filtre": {
+        "modele_B": {
+          "p50_ms": 1.235,
+          "p95_ms": 2.08,
+          "p99_ms": 6.009,
+          "moyenne_ms": 1.329
+        },
+        "modele_A": {
+          "p50_ms": 2.056,
+          "p95_ms": 3.283,
+          "p99_ms": 8.978,
+          "moyenne_ms": 2.168
+        },
+        "allers_retours_A_moyen": 2.0,
+        "allers_retours_A_max": 2,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      }
+    },
+    {
+      "part_libres": 0.5,
+      "sans_filtre": {
+        "modele_B": {
+          "p50_ms": 0.873,
+          "p95_ms": 1.3,
+          "p99_ms": 1.837,
+          "moyenne_ms": 0.884
+        },
+        "modele_A": {
+          "p50_ms": 2.103,
+          "p95_ms": 3.056,
+          "p99_ms": 4.485,
+          "moyenne_ms": 2.116
+        },
+        "allers_retours_A_moyen": 2.0,
+        "allers_retours_A_max": 4,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      }
+    },
+    {
+      "part_libres": 0.3,
+      "sans_filtre": {
+        "modele_B": {
+          "p50_ms": 0.676,
+          "p95_ms": 1.148,
+          "p99_ms": 2.718,
+          "moyenne_ms": 0.756
+        },
+        "modele_A": {
+          "p50_ms": 2.316,
+          "p95_ms": 5.722,
+          "p99_ms": 10.036,
+          "moyenne_ms": 2.848
+        },
+        "allers_retours_A_moyen": 2.51,
+        "allers_retours_A_max": 6,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      }
+    },
+    {
+      "part_libres": 0.1,
+      "sans_filtre": {
+        "modele_B": {
+          "p50_ms": 0.491,
+          "p95_ms": 0.78,
+          "p99_ms": 1.193,
+          "moyenne_ms": 0.522
+        },
+        "modele_A": {
+          "p50_ms": 6.844,
+          "p95_ms": 13.347,
+          "p99_ms": 17.883,
+          "moyenne_ms": 6.991
+        },
+        "allers_retours_A_moyen": 5.2,
+        "allers_retours_A_max": 8,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      }
+    },
+    {
+      "part_libres": 0.03,
+      "sans_filtre": {
+        "modele_B": {
+          "p50_ms": 0.446,
+          "p95_ms": 0.826,
+          "p99_ms": 1.372,
+          "moyenne_ms": 0.503
+        },
+        "modele_A": {
+          "p50_ms": 17.081,
+          "p95_ms": 35.822,
+          "p99_ms": 50.545,
+          "moyenne_ms": 18.372
+        },
+        "allers_retours_A_moyen": 8.8,
+        "allers_retours_A_max": 12,
+        "allers_retours_B": 1,
+        "resultats_differents": 0
+      }
+    }
+  ],
+  "E3_memoire": [
+    {
+      "chauffeurs": 1000,
+      "index_A_geo_all_ko": 90.0,
+      "index_B_geo_available_ko": 67.1,
+      "redis_total_mo": 2.36
+    },
+    {
+      "chauffeurs": 10000,
+      "index_A_geo_all_ko": 1005.3,
+      "index_B_geo_available_ko": 716.1,
+      "redis_total_mo": 7.14
+    },
+    {
+      "chauffeurs": 50000,
+      "index_A_geo_all_ko": 4419.0,
+      "index_B_geo_available_ko": 3597.3,
+      "redis_total_mo": 27.3
+    }
+  ],
+  "E4_concurrence": {
+    "lua_atomique": {
+      "essais": 100,
+      "clients_par_essai": 20,
+      "doubles_reservations": 0,
+      "max_gagnants_sur_un_essai": 1
+    },
+    "naive_hget_hset": {
+      "essais": 100,
+      "clients_par_essai": 20,
+      "doubles_reservations": 99,
+      "max_gagnants_sur_un_essai": 20
+    }
+  }
+}
